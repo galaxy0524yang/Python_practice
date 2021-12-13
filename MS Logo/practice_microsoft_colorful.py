@@ -1,17 +1,19 @@
 # マイクロソフト ロゴ 練習
-# 色付き
+# "practice_microsoft.py" の色付きバージョン
 
 from turtle import *
 
 hideturtle()
 speed(100)
 
+# 色の定義
 White = "#ffffff"
 OrangeRed = "#F25022"
 Green = "#7FBA00"
 Blue = "#00A4EF"
 Yellow = "#FFB900"
 
+# 循環定義
 def main(x, y, c):
     penup()
     goto(x,y)
