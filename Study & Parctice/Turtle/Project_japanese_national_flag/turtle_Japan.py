@@ -34,7 +34,7 @@ begin_fill()
 circle(150)
 end_fill()
 
-ts = getscreen()
-ts.getcanvas().postscript(file = r"C:/PythonProjects/Python_Practice/Study & Parctice/Turtle/日本国旗.eps")
+# ts = getscreen()
+# ts.getcanvas().postscript(file = r"C:/PythonProjects/Python_Practice/Study & Parctice/Turtle/日本国旗.eps")
 
 done()

@@ -5,6 +5,7 @@ from turtle import *
 
 hideturtle()
 speed(100)
+tracer(False)
 
 # 色の定義
 White = "#ffffff"
@@ -27,15 +28,15 @@ def main(x, y, c):
     end_fill()
 
 #左上
-main(x=-170, y=170, c=OrangeRed)
+main(-170, 170, OrangeRed)
 
 #右上
-main(x=5, y=170, c=Green)
+main(5, 170, Green)
 
 #左下
-main(x=-170, y=-5, c=Blue)
+main(-170, -5, Blue)
 
 #右下
-main(x=5, y=-5, c=Yellow)
+main(5, -5, Yellow)
 
 done()
